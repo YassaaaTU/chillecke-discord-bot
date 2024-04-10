@@ -1,0 +1,27 @@
+{
+  "name": "chillecke-discord-bot",
+  "version": "1.0.0",
+  "description": "first discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YassaaaTU/chillecke-discord-bot.git"
+  },
+  "keywords": [
+    "General Purpose Discord Bot for personal use"
+  ],
+  "author": "DeceasedGhost aka. Yassaaa aka. Yasir",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/YassaaaTU/chillecke-discord-bot/issues"
+  },
+  "homepage": "https://github.com/YassaaaTU/chillecke-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
